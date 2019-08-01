@@ -28,8 +28,8 @@ button {
     outline: none;
     left: 0;
     opacity: 0;                                         /* Hiding nav. button */
-    padding-top: calc(100% * 0.305 - 17.5px);           /* zadokumentovati kako sam dosao do formule */
-    padding-right: 25%;                                 /* relative to the width of the containing block  */
+    padding-top: calc(100% * 0.305 - 17.5px);           
+    padding-right: 25%;                                 
     padding-bottom: calc(100% * 0.305 - 17.5px);
 }
 
@@ -38,7 +38,7 @@ button {
     right: 0;
     opacity: 0;                                        /*  Hiding nav. button */
     padding-top: calc(100% * 0.305 - 17.5px);
-    padding-left: 25%;                                  /* relative to the width of the containing block?  */
+    padding-left: 25%;                                  
     padding-bottom: calc(100% * 0.305 - 17.5px);
 }
 
@@ -53,8 +53,7 @@ button {
     position: relative;
     width: 67vw;
     height: auto;
-    display: flex;  /* Bez ovoga, donja strana slike ne bi ispunjavala okvir. Ali mi nije jasno kakvu
-                       ulogu ima display: flex ovde, pitati na stack overflow-u?  */
+    display: flex;
 }
 
 #slidePic {
